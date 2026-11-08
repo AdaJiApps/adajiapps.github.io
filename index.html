@@ -4,23 +4,30 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Adaji</title>
-<style>
-  :root { color-scheme: light dark; --ink: #1a1a1a; --muted: #666; --bg: #fff; --accent: #1a1a1a; }
-  @media (prefers-color-scheme: dark) { :root { --ink: #e8e8e8; --muted: #9a9a9a; --bg: #121212; --accent: #e8e8e8; } }
-  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
-  h1 { font-size: 1.7em; margin: 0 0 4px; }
-  .meta { color: var(--muted); margin: 0 0 24px; }
-  a { color: var(--accent); }
-</style>
+<link rel="icon" href="assets/lassoo-icon.png">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <main>
-<h1>Adaji</h1>
-<p class="meta">Small games and apps from the Czech Republic.</p>
-<h2>Lassoo: Snake Puzzle</h2>
-<p><a href="lassoo/privacy/">Privacy Policy</a></p>
-<p>Contact: <a href="mailto:adaji.apps@gmail.com">adaji.apps@gmail.com</a></p>
+
+<header class="hero">
+  <div>
+    <h1>Adaji</h1>
+    <p class="tagline">Games &amp; apps</p>
+  </div>
+</header>
+
+<section class="card app">
+  <img src="assets/lassoo-icon.png" alt="">
+  <div>
+    <h2>Lassoo: Snake Puzzle</h2>
+    <p>Catch beetles by looping the snake around them. A puzzle and an arcade game in one.</p>
+    <p class="links"><a href="lassoo/privacy/">Privacy Policy</a></p>
+  </div>
+</section>
+
+<footer><a href="mailto:adaji.apps@gmail.com">adaji.apps@gmail.com</a></footer>
+
 </main>
 </body>
 </html>
